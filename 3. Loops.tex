@@ -1,0 +1,98 @@
+\section{Loops}
+\subsection{What is a Loop?}
+A loop is a programming structure that allows a set of instructions to be executed repeatedly. It continues to run as long as a specified condition is true, making it useful for tasks that require repetition, such as processing items in a list or performing repetitive calculations. Common types of loops include for loops and while loops.
+
+
+\subsection{While Loops}
+
+\subsubsection{Exercises}
+\begin{itemize}
+    \item [-] Jenga (Brick Major)
+    \item [-] Fill the box
+    \item [-] Draw a pretty flower
+    \item [-] Timed Flower Drawing
+    \item [-] Counting Fruits
+\end{itemize}
+
+\subsubsection{Jenga}
+
+The students will be asked to play a game of Jenga. The point is that this is like a while loop. "while the tower still stands, pull out a brick". 
+
+Note: Printout of the code. On one side basic, the other side with counter
+
+Note: Print out of the code. On one side basic, the other side with counter
+
+
+
+\subsubsection{Fill the Box}
+
+The students are asked to figure out how many jenga blocks fit in a box. Here the obvious solution is to fill the box with blocks and count how many you use. This is a while loop saying "While the box is empty, put in another brick". 
+
+Here, you can also do a version with or without the counter. The point is that you don't know how many bricks go in the box until you can't fit any more bricks. 
+
+
+Note: Print out of the code. On one side basic, the other side with counter
+
+\subsubsection{Draw a pretty flower}
+
+
+Here the student is asked to draw a flower until they think it is pretty enough. Once again, the point is that they don't know when they will be done until they are done. 
+
+\subsubsection{Timed Flower Drawing}
+Draw a flower in 10 seconds. Here we compare to the pretty flower where they had all the time they wanted. This is to show that loops can be defined with time as "while there is still time left". 
+
+
+\subsubsection{Counting Fruits}
+
+In this exercise the student will be asked to count how many fruits or non-fruits are in a box. This is a for loop simulated as a while loop, to get the student to get a feeling for how a for loop works, without it being a for loop. 
+
+The student will take an item out of the box one at a time, and identify whether it is a fruit or not, and then add to their counter of each. 
+
+\subsection{For Loops}
+
+\subsubsection{Exercises}
+\begin{itemize}
+    \item [-] Empty the box
+    \item [-] Long Sssssss
+\end{itemize}
+
+
+\subsubsection{Empty the box}
+
+Now we ask the student to empty the box. The point here is that they know how many times to put their hand in the box and take a brick out. 
+
+This exercise can be used as an example of for loops going out of bounds. Here, it does not make sense to put your hands back in the box to take bricks out, if there are no bricks left. 
+
+
+\subsubsection{Long S}
+Give the long s pseudo code to the student and have them follow the code as well as possible. Hopefully they will be able to understand it. 
+\begin{lstlisting}
+x >= 2
+DRAW diagonally 1 right and 1 up
+DRAW diagonally 1 right and 1 down
+MOVE 2 left
+REPEAT x times:
+    REPEAT 3 times:
+        DRAW vertically 2 down
+        MOVE 1 right and 2 up
+    MOVE 3 down and 3 left 
+MOVE 4 up
+REPEAT x-1 times:
+    DRAW diagonally 1 right and 1 down
+	MOVE 1 up
+    DRAW diagonally 1 right and 1 down
+    MOVE 4 up and 2 left
+MOVE 3 down and 2 right
+Repeat x-1 times:
+    DRAW diagonally 0.5 left and 0.5 down
+	MOVE 1 left
+    DRAW diagonally 0.5 left and 0.5 down
+    MOVE 2 down and 2 right
+DRAW diagonally 1 down and 1 left
+DRAW diagonally 1 up and 1 left
+\end{lstlisting}
+
+
+
+
+
